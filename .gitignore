@@ -1,0 +1,23 @@
+# OS and archive artifacts
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Editor settings
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+
+# Python cache
+__pycache__/
+*.pyc
